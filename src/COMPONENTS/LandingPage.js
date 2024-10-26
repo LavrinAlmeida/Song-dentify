@@ -10,7 +10,6 @@ const LandingPage = ({ usageCount, setUsageCount }) => {
     setShowLogin(false); // Close the login modal
   };
 
-
   return (
     <div className="landing-page">
       <h1 className="landing-title">Welcome to Song Finder</h1>

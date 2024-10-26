@@ -1,7 +1,12 @@
 .App {
   text-align: center;
 }
-
+.App-background{
+  background-image: url('https://wallpapers.com/images/high/cute-music-dj-minion-v1ne0ttida4e6bfn.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

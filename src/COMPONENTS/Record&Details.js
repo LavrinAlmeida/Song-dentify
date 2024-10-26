@@ -8,5 +8,4 @@ const RecordDetails = () => {
     </div>
   );
 };
-
 export default RecordDetails;

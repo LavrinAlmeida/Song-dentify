@@ -10,7 +10,6 @@ export const getStreamingLinks = async (songName, artistName) => {
       'x-rapidapi-host': 'deezerdevs-deezer.p.rapidapi.com'
     }
   };
-
   try {
     const response = await fetch(url, options);
     const data = await response.json();

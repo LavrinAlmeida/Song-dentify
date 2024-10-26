@@ -4,7 +4,6 @@ import axios from 'axios';
 const recognizeAudio = async (audioBlob) => {
   const formData = new FormData();
   formData.append('file', audioBlob);
-
   const options = {
     method: 'POST',
     url: 'https://shazam-song-recognition-api.p.rapidapi.com/recognize/file',

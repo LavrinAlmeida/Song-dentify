@@ -13,7 +13,6 @@ export const getSongDetails = async (songName) => {
         format: 'json'
       }
     });
-
     const track = lastFmResponse.data.track;
     return {
       title: track.name,

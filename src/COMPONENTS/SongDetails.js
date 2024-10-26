@@ -8,5 +8,4 @@ const SongDetails = ({ songName, artistName }) => (
     {/* Additional information or links can go here */}
   </div>
 );
-
 export default SongDetails;
